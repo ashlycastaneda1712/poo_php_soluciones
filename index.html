@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Principal - POO PHP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f3f7; 
+            padding: 20px;
+        }
+        .container {
+            max-width: 550px;
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 12px rgba(124, 106, 166, 0.15);
+            margin: 0 auto;
+            border-top: 6px solid #d1c4e9;
+        }
+        h2 {
+            color: #5e35b1;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .menu-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .btn-enlace {
+            display: block;
+            text-align: center;
+            padding: 14px;
+            background-color: #e8eaf6;
+            color: #4527a0; 
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            border: 1px solid #c5cae9;
+            transition: all 0.2s ease-in-out;
+        }
+        .btn-enlace:hover {
+            background-color: #d1c4e9;
+            color: #311b92;
+            border-color: #b39ddb;
+            transform: scale(1.01);
+        }
+        footer {
+            text-align: center;
+            margin-top: 25px;
+            font-size: 12px;
+            color: #7e57c2;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Laboratorio: POO con PHP</h2>
+    
+    <div class="menu-list">
+        <a href="form_Producto.php" class="btn-enlace">1. Sistema de Productos</a>
+        <a href="form_Empleado.php" class="btn-enlace">2. Gestión de Empleados</a>
+        <a href="form_libro.php" class="btn-enlace">3. Biblioteca Virtual</a>
+        <a href="form_Vehiculos.php" class="btn-enlace">4. Sistema de Vehículos (Herencia)</a>
+        <a href="form_Bancario.php" class="btn-enlace">5. Sistema Bancario (Herencia)</a>
+        <a href="form_Personal.php" class="btn-enlace">6. Control de Personal (Herencia Avanzada)</a>
+    </div>
+
+    <footer>
+        <p>Programación Orientada a Objetos • INTECAP 2026</p>
+    </footer>
+</div>
+
+</body>
+</html>
